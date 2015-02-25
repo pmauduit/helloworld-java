@@ -15,6 +15,8 @@ public class HelloWorld {
     }
     
 	public static void main(String args[]) throws IOException {
+	    System.out.println(String.format("Memory available before call: %d", Runtime.getRuntime().freeMemory()));
 	    HelloWorld.runNative(args);
+	    System.out.println(String.format("Memory available after call: %d", Runtime.getRuntime().freeMemory()));
 	}
 }

@@ -9,4 +9,9 @@ First go to `src/main/resources/native`, then
 JAVA_HOME=/usr/lib/jvm/default-java make
 ```
 
+Then run
+
+```
+mvn clean compile exec:java
+```
 
