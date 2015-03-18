@@ -5,7 +5,7 @@ This repository is also meant to test some experimentations around Java Virtual 
 
 # native lib helloworld
 
-First go to `src/main/resources/native`, then
+First go to `src/main/resources/native`, then:
 
 ```
 JAVA_HOME=/usr/lib/jvm/default-java make
